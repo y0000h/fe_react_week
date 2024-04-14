@@ -1,0 +1,66 @@
+.movie-container{
+    padding: 150px 0 50px 0;
+}
+.movie-container>div{
+    width: calc( 1200px + 150px);
+    margin:auto; 
+    display: grid;
+    grid-template-columns: repeat( 4, 300px);
+    gap: 50px;
+}
+
+.movie_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 20px; 
+    position: relative;
+}
+
+.movie_card img{
+    width:100%; 
+}
+.movie_card p{
+    text-align: justify;
+}
+
+.goDetailBtn{
+    display: block;
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding:5px 10px;
+    border-radius:5px;
+
+    position: absolute;
+    bottom: 20px;
+}
+.goDetailBtn:hover{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen  and (max-width: 1400px) {
+    .movie-container>div{
+        width: 97%;
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media screen  and (max-width: 1200px) {
+    .movie-container>div{ 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media screen  and (max-width: 800px) {
+    .movie-container>div{ 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen  and (max-width: 670px) {
+    .movie-container>div{ 
+        grid-template-columns: 1fr; 
+    }
+}

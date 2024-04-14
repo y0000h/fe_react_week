@@ -1,0 +1,31 @@
+.lnb,
+.host{
+    display: flex;
+    gap:50px;
+}
+
+/* Link 컴포넌트는 내부 구조가 a 로 구성되어 있으므로  */
+a{ 
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{ 
+    color:red;
+}
+
+ 
+a.power{
+    background-color:yellow;
+}
+
+
+.page{
+    height: 500px;
+    background-color: skyblue;
+    padding: 50px;
+}
+a.gotoBack{
+    background-color: black;
+    padding: 10px;
+    color:white;
+}

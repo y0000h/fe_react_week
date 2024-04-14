@@ -1,0 +1,6 @@
+.coin-container{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.coin-container>div{ width:1200px;margin: auto; }

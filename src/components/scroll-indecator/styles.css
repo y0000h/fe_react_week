@@ -1,0 +1,17 @@
+.scroll-progress-tracking-container{
+    width:100%; 
+    height: 3px;
+    background-color: greenyellow;
+    position: fixed;
+    /* header : 화면기준으로 배치 
+       coins : 각각 컴포넌트에서 부모기준 
+    */
+    top:50px; 
+    left:0; 
+}
+
+.current-progress-bar{
+    height: 100%;
+    background-color: purple;
+    width:300px;
+}

@@ -1,0 +1,12 @@
+.lnb,
+.lnb ul{
+    display: flex;
+    gap: 50px; 
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.lnb ul a.active{
+    color:red;
+    border-bottom: 1px solid red;
+}

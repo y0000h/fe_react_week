@@ -1,0 +1,19 @@
+.lnb,
+.host{
+    display: flex;
+    gap:50px;
+}
+
+/* Link 컴포넌트는 내부 구조가 a 로 구성되어 있으므로  */
+a{ 
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{ 
+    color:red;
+}
+
+/* 선택된 메뉴 디자인  */
+a.power{
+    background-color: yellowgreen;
+}
